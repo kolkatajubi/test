@@ -1,7 +1,7 @@
 require("parramato").Server({
     root:"https://development.jubi.ai/test",
     socketLocalPath: '/socket',
-    httpPort:8,
+    httpPort:8213,
     cluster:false,
     dbUri:'mongodb://jubi:jubi@uatmongo.parramato.com:27017/rel',
     staticDirectory:__dirname+"/static",
